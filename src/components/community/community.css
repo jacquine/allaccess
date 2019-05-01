@@ -1,0 +1,26 @@
+body, html {
+    padding: 15px;
+}
+
+h2 {
+    top: 300px;
+    font-weight: bold;
+
+}
+
+h6 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: inline;
+    color: black;
+    
+}
+
+.back {
+    padding-top: 10px;
+    left: 0px;
+}
+
+.icons {
+    display: inline;
+}

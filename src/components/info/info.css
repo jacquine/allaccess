@@ -1,0 +1,19 @@
+back {
+    bottom: 0px;
+    position: absolute;
+}
+
+h3 {
+    text-align: center;
+}
+
+list {
+    border: solid 1px black;
+    position: absolute;
+    top: 500px;
+}
+
+a {
+    text-emphasis: none;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.museumName {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+body {
+    font-size: 9px;
+}
+
+span {
+    margin: auto;
+}
+
+a {
+    color: black;
+}
+
+
+/* .frick {
+    right: 5px;
+    width: 90px;
+    height: 110px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+} */
+
+.museumsList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.cooperContainer {
+    grid-column-start: 2/4;
+    grid-row-start: 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+

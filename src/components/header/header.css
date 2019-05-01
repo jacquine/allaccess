@@ -1,0 +1,28 @@
+.audio {
+    position: absolute;
+    float: left;
+    top: 0;
+}
+
+.zoom {
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+.name {
+    text-align: center;
+    top: 0;
+}
+
+.zout {
+    top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+a {
+    color: black;
+}
+
+

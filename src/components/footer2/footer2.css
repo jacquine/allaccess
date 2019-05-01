@@ -1,0 +1,27 @@
+.button {
+    border: solid 1px black;
+    /* display: inline-block; */
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 70px; 
+}
+
+.button:hover {
+    border: solid 5px black;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .b1 {
+    grid-column-start: 1/2;
+} */
