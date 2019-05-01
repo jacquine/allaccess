@@ -13,14 +13,9 @@
 }
 
 .footer {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    right: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
 }
+
 
 /* .b1 {
     grid-column-start: 1/2;

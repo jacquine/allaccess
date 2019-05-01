@@ -9,24 +9,15 @@ export default class Footer2 extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            selection: 'photos'
-        };
-    }
-
-    handleClick = (e) => {
-        this.setState({
-            selection: e
-        })
-        
     }
 
     render() {
         return (
-        <div className="footer">
-            <a href="/photos"><button className="button b1" onClick = {() => {this.handleClick("photos")}}>Photos</button></a>
-            <a href="/directions"><button className="button b2" onClick = {() => {this.handleClick("go")}}>Go</button></a>
-            <a href="/community"><button className="button b3" onClick = {() => {this.handleClick("community")}}>Community</button></a>
+            <div className="footer-wrapper">
+        <div className="footer"><a href="/photos"><button className="button b1">Photos</button></a>
+            <a href="/directions"><button className="button b2">Go</button></a>
+            <a href="/community"><button className="button b3">Community</button></a>
+        </div>
         </div>
         )
     }

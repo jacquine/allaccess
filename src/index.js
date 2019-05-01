@@ -6,7 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import history from './history';
 import DropdownMenu from '../src/components/dropdownmenu/dropdownmenu'
-import Result from '../src/components/result/result.js';
+import Result from './components/result/Result.js';
 import Header from '../src/components/header/header.js';
 import MuseumProfile from '../src/components/museumProfile/museumProfile.js'
 import Community from '../src/components/community/community.js'

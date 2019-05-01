@@ -6,7 +6,7 @@ export default class Directions extends Component {
   render() {
     return (
       <div>
-          <h1> getting there </h1>
+          <h1> getting there  </h1>
           <img src={require("../../assets/gettingthere1.png")} alt="map1"/>
           <img src={require("../../assets/gettingthere2.png")} alt="map2"/>
           

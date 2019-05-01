@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Museum from '../museum/museum.js'
+import Museum from '../museum/Museum.js'
 import DropdownMenu from '../dropdownmenu/dropdownmenu.js'
 
 export default class Result extends Component {

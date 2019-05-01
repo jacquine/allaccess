@@ -1,10 +1,11 @@
 .museumName {
-    font-size: 12px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 body {
-    font-size: 9px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
 }
 
 span {
@@ -26,10 +27,9 @@ a {
 } */
 
 .museumsList {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 2em;
+    display: flex;
+    width: 80vw;
+    margin: 20px;
 }
 
 .cooperContainer {

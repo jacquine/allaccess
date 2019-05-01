@@ -5,8 +5,9 @@
 }
 
 .pageLayout {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: [row1-start] 25% [row1-end] 25% [third-line] 30% [last] 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .rateButton {
@@ -14,3 +15,7 @@
     right: 0;
 }
 
+info {
+    display: flex;
+    justify-content: center;
+}

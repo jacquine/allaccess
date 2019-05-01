@@ -26,13 +26,19 @@ export default class Menu extends Component {
             <img className="picture" src={require("../../assets/main-nyc.png")} alt="new york city outline"/>
         </div>
         <div className="buttons_page">
-            <button className="button buttonMobility" onClick = {() => {this.handleClick("mobility")}}>MOBILITY</button>
-            <button className="button buttonVisual" onClick = {() => {this.handleClick("visual")}}>VISUALLY IMPAIRED</button>
-            <button className="button buttonHearing" onClick = {() => {this.handleClick("hearing")}}>HEARING IMPAIRED</button>
-            <button className="button buttonAll" onClick = {() => {this.handleClick("all")}}>ALL</button>
-        </div>
-        <div className="find"><a href="/result"><button className="button" onClick="findMuseums()"> FIND MUSEUMS! </button></a></div>
+            <div className="button-row">
+                <button className="button buttonAll" onClick = {() => {this.handleClick("all")}}>ALL</button>
+                <button className="button buttonMobility" onClick = {() => {this.handleClick("mobility")}}>MOBILITY</button>
+            </div>
+            <div className="button-row">
+                <button className="button buttonVisual" onClick = {() => {this.handleClick("visual")}}>VISUALLY IMPAIRED</button>
+                <button className="button buttonHearing" onClick = {() => {this.handleClick("hearing")}}>HEARING IMPAIRED</button>
+            </div>
+            <div className="button-row">
+               <a href="/result"><button className="button" onClick="findMuseums()"> FIND MUSEUMS! </button></a>
 
+            </div>
+        </div>
         </div>
     )
     }

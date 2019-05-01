@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './museum.css'
+import './Museum.css'
 
 export default class Museum extends Component {
 
